@@ -3,14 +3,18 @@ package com.example.demo;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-@RestController(value = "/")
+@RestController(value = "//")
 public class Controller {
 
   @GetMapping("/ping")
   public String ping() {
-    return "pong1";
+    return "pong2";
   }
 
   1line 141
   line 20
+  line 15
+  line 1
+  line 15 1
+  line 16
 }
